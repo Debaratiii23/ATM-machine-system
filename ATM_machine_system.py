@@ -25,7 +25,7 @@ if pin == 2312:
             deposit_money = int(input('Enter the deposit amount'))
             balance = balance + deposit_money
             print(f'{deposit_money} is credited to your account')
-            print(f'Your Current Balance is {Balance}')
+            print(f'Your Current Balance is {balance}')
         if option == 4:
             break
 else:
